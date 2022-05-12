@@ -1,0 +1,78 @@
+.jumbotron {
+	background-color: #89608E;
+	color: #ffffff;
+	padding: 100px 25px;
+	font-family: sans-serif;
+	text-align: center
+}
+.container-fluid {
+	padding: 40px 50px;
+}
+.bc-grey {
+	background-color: #623B5A;
+}
+.bg-black {
+	background-color: #623B5A;
+}
+.panel {
+	border: 1px solid #BA9593;
+}
+.panel:hover {
+	box-shadow: 3px 7px 30px #EDFFAB;
+}
+.equipo .panel-heading {
+	color: #C8FFBE;
+	background-color: #C8FFBE;
+	padding: 25px;
+	border-bottom: 1px solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.panel-footer {
+	background-color: #C8FFBE;
+}
+.panel-footer h4 {
+	color: #0C32F5;
+	font-size: 15px;
+}
+@media screen and (min-width:320px) {
+	img {
+		max-width:100%;
+	}
+}
+@media screen and (min-width:768px) {
+	img {
+		max-width:150%;
+	}
+}
+@media screen and (min-width:980px) {
+	img {
+		max-width:225%;
+	}
+}
+.icono {
+	color: #ff8c00;
+	font-size: 20 px;
+}
+.menu {
+    background-color: #483d8b;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+    color: #fde4cf;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: #ffcfd2;
+    background-color: #fde4cf;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+    color: #fde4cf;
+}
